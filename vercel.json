@@ -4,22 +4,24 @@
   "redirects": [
     {
       "source": "/",
-      "destination": "/dj",
+      "destination": "/dj/",
+      "permanent": false
+    },
+    {
+      "source": "/dj",
+      "destination": "/dj/",
+      "permanent": false
+    },
+    {
+      "source": "/property",
+      "destination": "/property/",
       "permanent": false
     }
   ],
   "rewrites": [
     {
-      "source": "/dj",
-      "destination": "https://landing-page-dj-git-main-offshorecreative.vercel.app/"
-    },
-    {
       "source": "/dj/:path*",
       "destination": "https://landing-page-dj-git-main-offshorecreative.vercel.app/:path*"
-    },
-    {
-      "source": "/property",
-      "destination": "https://landing-page-property-eta.vercel.app/"
     },
     {
       "source": "/property/:path*",
