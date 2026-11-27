@@ -16,6 +16,11 @@
       "source": "/property",
       "destination": "/property/",
       "permanent": false
+    },
+    {
+      "source": "/fashion",
+      "destination": "/fashion/",
+      "permanent": false
     }
   ],
   "rewrites": [
@@ -34,6 +39,14 @@
     {
       "source": "/property/:path*",
       "destination": "https://landing-page-property-one.vercel.app/:path*"
+    },
+    {
+      "source": "/fashion/",
+      "destination": "https://fashion-eight-fawn.vercel.app/"
+    },
+    {
+      "source": "/fashion/:path*",
+      "destination": "https://fashion-eight-fawn.vercel.app/:path*"
     }
   ]
 }
